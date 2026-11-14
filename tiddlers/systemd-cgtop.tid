@@ -1,0 +1,17 @@
+created: 20261111163049749
+modified: 20261111163129851
+tags: [[systemd: Resource Control and Hardening]]
+title: systemd-cgtop
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-cgtop]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-cgtop">>
+`systemd-cgtop`
+<<< # live per-cgroup CPU/memory (q to quit)
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>

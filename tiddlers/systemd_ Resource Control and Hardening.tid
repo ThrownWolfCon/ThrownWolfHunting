@@ -1,0 +1,20 @@
+created: 20261110193008844
+modified: 20261111162247678
+tags: systemd
+title: systemd: Resource Control and Hardening
+type: text/vnd.tiddlywiki
+
+[[systemd: Resource Control and Hardening]]
+
+* systemd Resource control and hardening: limiting CPU/memory with cgroups, and sandboxing options like `ProtectSystem=` and `PrivateTmp=`.
+
+Resource control uses cgroups (kernel control groups). Every service runs in its own cgroup, and systemd sets limits on it: memory, CPU, process count, I/O.
+Hardening (sandboxing) uses kernel namespaces, capabilities, and seccomp. Directives like ProtectSystem= change what the process can see and do, so a compromised service can’t do much damage.
+
+```bash
+stat -fc %T /sys/fs/cgroup           # cgroup2fs = unified cgroup v2 (default on modern Ubuntu)
+systemd-cgls                         # tree of all cgroups: slices -> services -> processes
+systemd-cgtop                        # live per-cgroup CPU/memory (q to quit)
+systemctl status cron.service        # the "CGroup:" line shows where it lives
+systemctl show cron.service -p MemoryMax -p CPUQuotaPerSecUSec -p TasksMax -p MemoryCurrent
+```

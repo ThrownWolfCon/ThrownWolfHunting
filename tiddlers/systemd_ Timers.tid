@@ -1,0 +1,9 @@
+created: 20261110192850507
+modified: 20261110192856985
+tags: systemd
+title: systemd: Timers
+type: text/vnd.tiddlywiki
+
+[[systemd: Timers]]
+
+* systemd: Timers: .timer units as a cron replacement for scheduled jobs.

@@ -1,0 +1,47 @@
+created: 20261110212004422
+modified: 20261110225827915
+tags: [[systemd: Debugging with journald]]
+title: journalctl
+type: text/vnd.tiddlywiki
+
+[[Open This|journalctl]]
+
+---
+
+```bash
+journalctl -b                          # current boot only
+journalctl -b -1                       # previous boot
+journalctl --since "1 hour ago"
+journalctl --since "2026-11-10 08:00" --until "2026-11-10 09:00"
+journalctl -p err -b                   # priority err and worse, this boot
+journalctl -k                          # kernel messages (like dmesg)
+journalctl -f                          # follow live (Ctrl+C to quit)
+journalctl -u ssh.service -n 20 --no-pager
+journalctl -o json-pretty -n 1         # see the structured fields
+```
+
+Field matching is where it gets powerful:
+
+```bash
+journalctl _SYSTEMD_UNIT=ssh.service
+journalctl _UID=1000
+journalctl _COMM=sudo
+journalctl /usr/bin/sudo 
+```
+
+4. Housekeeping commands worth knowing
+bash
+systemctl --failed                     # all failed units, a great first command on an unknown box
+sudo journalctl --vacuum-time=2weeks   # prune old logs (this deletes data, so only if you want to)
+sudo journalctl --verify               # check journal integrity
+
+Reading /etc/systemd/journald.conf is safe. Changing it (Storage=, SystemMaxUse=) is what you’d do to make logs persistent or cap their size, but leave it alone for now.
+
+Interview-ready workflow
+
+When someone says “the service won’t start”:
+
+systemctl status <unit> for the state and exit code
+journalctl -u <unit> -b for the full story this boot
+journalctl -p err -b in case the cause is outside the unit (disk, network, kernel)
+systemctl cat <unit> to confirm what’s actually configured, including drop-ins

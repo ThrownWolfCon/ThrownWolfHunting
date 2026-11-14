@@ -1,0 +1,13 @@
+created: 20261110205607679
+modified: 20261110210705721
+tags: [[systemd: Boot and Dependencies]]
+title: systemd-analyze
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-analyze]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-analyze">>
+`systemd-analyze`
+<<< total boot time, split into firmware/loader/kernel/userspace

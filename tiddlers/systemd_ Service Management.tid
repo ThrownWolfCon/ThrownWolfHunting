@@ -1,0 +1,18 @@
+created: 20261110192711666
+modified: 20261110230200841
+tags: systemd
+title: systemd: Service Management
+type: text/vnd.tiddlywiki
+
+[[systemd: Service Management]]
+
+* systemd Service management: starting, stopping, enabling, and checking services with systemctl, and understanding what “enabled” vs. “active” means.
+
+systemctl status cron.service
+
+Single-purpose checks, which are great in scripts because they set an exit code (0 = yes):
+
+bash
+systemctl is-active cron.service
+systemctl is-enabled cron.service
+systemctl is-failed cron.service

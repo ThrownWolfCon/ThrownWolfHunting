@@ -1,0 +1,17 @@
+created: 20261110230818569
+modified: 20261110232828381
+tags: systemctl
+title: systemctl list-unit-files
+type: text/vnd.tiddlywiki
+
+[[Open This|systemctl list-unit-files]]
+
+---
+
+<<< <<copy-to-clipboard "systemctl list-unit-files">>
+`systemctl list-unit-files`
+<<< commandnote
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>

@@ -1,0 +1,9 @@
+created: 20261110192809284
+modified: 20261110192815800
+tags: systemd
+title: systemd: Debugging with journald
+type: text/vnd.tiddlywiki
+
+[[systemd: Debugging with journald]]
+
+* systemd Debugging with journald: reading logs via journalctl (filtering by unit, time, boot, priority) and diagnosing why a service failed to start.

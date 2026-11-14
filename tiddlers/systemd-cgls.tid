@@ -1,0 +1,17 @@
+created: 20261111162438490
+modified: 20261111171111450
+tags: [[systemd: Resource Control and Hardening]]
+title: systemd-cgls
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-cgls]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-cgls">>
+`systemd-cgls`
+<<< # tree of all [[cgroups]]: slices -> services -> processes
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>

@@ -1,0 +1,17 @@
+created: 20261110230857030
+modified: 20261110232759210
+tags: [[systemctl list-unit-files]]
+title: systemctl list-unit-files --type=service
+type: text/vnd.tiddlywiki
+
+[[Open This|systemctl list-unit-files --type=service]]
+
+---
+
+<<< <<copy-to-clipboard "systemctl list-unit-files --type=service">>
+`systemctl list-unit-files --type=service`
+<<< commandnote
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>

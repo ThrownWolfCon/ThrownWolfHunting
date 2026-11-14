@@ -1,0 +1,18 @@
+created: 20261110205745620
+modified: 20261110210555760
+tags: systemd-analyze
+title: systemd-analyze blame
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-analyze blame]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-analyze blame">>
+`systemd-analyze blame`
+<<<units sorted by how long they took to start
+
+
+<$details summary="output">
+<$transclude tiddler="analyze-blame" mode="block"/>
+</$details>

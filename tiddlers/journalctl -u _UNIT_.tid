@@ -1,0 +1,9 @@
+created: 20261110212203585
+modified: 20261110212227800
+tags: journalctl
+title: journalctl -u <UNIT>
+type: text/vnd.tiddlywiki
+
+[[Open This|journalctl -u <UNIT>]]
+
+---

@@ -1,0 +1,30 @@
+created: 20261111163941483
+modified: 20261111165020104
+tags: [[systemd-analyze security]]
+title: systemd-analyze security ssh.service
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-analyze security ssh.service]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-analyze security ssh.service">>
+`systemd-analyze security ssh.service`
+<<< # line-by-line breakdown
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>
+
+
+```
+root@thrownwolf-5570:~# systemd-analyze security ssh.service
+  NAME                                                        DESCRIPTION                                                             EXPOSURE
+✗ RootDirectory=/RootImage=                                   Service runs within the host's root directory                                0.1
+  SupplementaryGroups=                                        Service runs as root, option does not matter                                    
+  RemoveIPC=                                                  Service runs as root, option does not apply                                     
+✗ User=/DynamicUser=                                          Service runs as root user                                                    0.4
+✓ AmbientCapabilities=                                        Service process does not receive ambient capabilities                           
+
+→ Overall exposure level for ssh.service: 9.6 UNSAFE 😨
+```

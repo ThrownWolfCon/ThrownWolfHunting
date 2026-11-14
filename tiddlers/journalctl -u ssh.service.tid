@@ -1,0 +1,18 @@
+created: 20261110212436007
+modified: 20261110233026845
+tags: [[journalctl -u <UNIT>]]
+title: journalctl -u ssh.service
+type: text/vnd.tiddlywiki
+
+[[Open This|journalctl -u ssh.service]]
+
+---
+
+<<< <<copy-to-clipboard "journalctl -u ssh.service">>
+`journalctl -u ssh.service`
+<<< commandnote
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>
+

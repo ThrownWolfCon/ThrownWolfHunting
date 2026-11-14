@@ -1,0 +1,17 @@
+created: 20261111160704055
+modified: 20261111161116677
+tags: systemd-analyze
+title: systemd-analyze verify
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-analyze verify]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-analyze verify">>
+`systemd-analyze verify`
+<<< commandnote
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>

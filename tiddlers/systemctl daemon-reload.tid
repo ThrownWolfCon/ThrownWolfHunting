@@ -1,0 +1,17 @@
+created: 20261111160514537
+modified: 20261111161839149
+tags: systemd
+title: systemctl daemon-reload
+type: text/vnd.tiddlywiki
+
+[[Open This|systemctl daemon-reload]]
+
+---
+
+<<< <<copy-to-clipboard "systemctl daemon-reload">>
+`systemctl daemon-reload`
+<<< tells __systemd__ to reload its configuration and re-scan unit files.
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>

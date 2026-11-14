@@ -1,0 +1,17 @@
+created: 20261110230733328
+modified: 20261110232918032
+tags: [[systemctl list-units]]
+title: systemctl list-units --type=service --state=running
+type: text/vnd.tiddlywiki
+
+[[Open This|systemctl list-units --type=service --state=running]]
+
+---
+
+<<< <<copy-to-clipboard "systemctl list-units --type=service --state=running">>
+`systemctl list-units --type=service --state=running`
+<<< commandnote
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>

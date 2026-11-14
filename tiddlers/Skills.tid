@@ -1,0 +1,17 @@
+created: 20261114200221791
+modified: 20261114200354589
+tags: Dashboard
+title: Skills
+type: text/vnd.tiddlywiki
+
+[[Open This|Skills]]
+
+---
+
+<$linkcatcher actions="<$action-sendmessage $message='tm-modal' $param=<<navigateTo>>/>">
+<div class="modal-links">
+<div class="tc-table-of-contents">
+<<toc-selective-expandable "Skills">>
+</div>
+</div>
+</$linkcatcher>

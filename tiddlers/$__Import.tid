@@ -4,4 +4,20 @@ type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[$:/palettes/FlexokiDark]]
+# [[journalctl]]
+# [[journalctl -u <UNIT>]]
+# [[journalctl -u ssh.service]]
+# [[systemd-analyze security]]
+# [[systemd-analyze security ssh.service]]
+# [[systemd-cgls]]
+# [[systemd-cgtop]]
+# [[systemctl]]
+# [[systemctl --failed]]
+# [[systemctl list-unit-files]]
+# [[systemctl list-unit-files --state=enabled]]
+# [[systemctl list-unit-files --type=service]]
+# [[systemctl list-units]]
+# [[systemctl list-units --type=service]]
+# [[systemctl list-units --type=service --state=running]]
+# [[systemctl list-timers]]
+# [[systemctl cat ssh.service]]

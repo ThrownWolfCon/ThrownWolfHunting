@@ -1,0 +1,34 @@
+created: 20261111163557140
+modified: 20261111163731091
+tags: [[systemd: Resource Control and Hardening]]
+title: systemd-analyze security
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-analyze security]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-analyze security">>
+`systemd-analyze security`
+<<< # every service with an exposure score (higher = more exposed)
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>
+
+```bash
+root@thrownwolf-5570:~# systemd-analyze security
+UNIT                                  EXPOSURE PREDICATE HAPPY
+ModemManager.service                       6.3 MEDIUM    😐
+NetworkManager.service                     7.8 EXPOSED   🙁
+accounts-daemon.service                    5.5 MEDIUM    😐
+alloy.service                              9.2 UNSAFE    😨
+alsa-state.service                         9.6 UNSAFE    😨
+anacron.service                            9.6 UNSAFE    😨
+atop.service                               9.6 UNSAFE    😨
+atopacct.service                           9.6 UNSAFE    😨
+avahi-daemon.service                       9.6 UNSAFE    😨
+bluetooth.service                          6.0 MEDIUM    😐
+bolt.service                               5.3 MEDIUM    😐
+chrony.service                             3.7 OK        🙂
+```

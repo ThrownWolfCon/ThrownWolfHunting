@@ -1,0 +1,17 @@
+created: 20261110205216953
+modified: 20261110210758656
+tags: systemd-analyze
+title: systemd-analyze critical-chain
+type: text/vnd.tiddlywiki
+
+[[Open This|systemd-analyze critical-chain]]
+
+---
+
+<<< <<copy-to-clipboard "systemd-analyze critical-chain">>
+`systemd-analyze critical-chain`
+<<< total boot time, split into firmware/loader/kernel/userspace
+
+<$details summary="output">
+<$transclude tiddler="critical-chain00" mode="block"/>
+</$details>

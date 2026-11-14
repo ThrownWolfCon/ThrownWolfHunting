@@ -1,0 +1,21 @@
+created: 20261110233922602
+modified: 20261110234044241
+tags: [[systemd: Timers]]
+title: systemctl list-timers
+type: text/vnd.tiddlywiki
+
+[[Open This|systemctl list-timers]]
+
+---
+
+<<< <<copy-to-clipboard "systemctl list-timers">>
+`systemctl list-timers`
+<<< commandnote
+
+<$details summary="output">
+<$transclude tiddler="outsidetiddler" mode="block"/>
+</$details>
+
+Watch the differences!!!
+
+`watch -n 2 -d systemctl list-timers --all`
