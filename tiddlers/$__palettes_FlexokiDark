@@ -1,0 +1,167 @@
+nh-void: #05070a
+nh-bg: #0a0e14
+nh-bg-2: #0f1520
+nh-panel: #141c2b
+nh-line: #1f2a3d
+nh-text: #c9f5e4
+nh-dim: #5f7a8a
+nh-faint: #3b4d5c
+nh-green: #39ff14
+nh-green-deep: #0b3d1e
+nh-cyan: #00f0ff
+nh-cyan-deep: #00323a
+nh-magenta: #ff2bd6
+nh-magenta-deep: #3a0a33
+nh-purple: #b026ff
+nh-purple-deep: #1e0b3a
+nh-yellow: #f9f002
+nh-yellow-deep: #3d3a00
+nh-orange: #ff6c11
+nh-red: #ff2a6d
+nh-blue: #4d9fff
+
+alert-background: <<colour nh-yellow-deep>>
+alert-border: <<colour nh-yellow>>
+alert-highlight: <<colour nh-red>>
+alert-muted-foreground: <<colour nh-yellow>>
+background: <<colour nh-bg>>
+blockquote-bar: <<colour nh-magenta>>
+button-background: <<colour nh-panel>>
+button-foreground: <<colour nh-green>>
+button-border: <<colour nh-cyan>>
+code-background: <<colour nh-void>>
+code-border: <<colour nh-green>>
+code-foreground: <<colour nh-green>>
+diff-delete-background: <<colour nh-red>>
+diff-delete-foreground: <<colour nh-void>>
+diff-equal-background: 
+diff-equal-foreground: inherit
+diff-insert-background: <<colour nh-green>>
+diff-insert-foreground: <<colour nh-void>>
+diff-invisible-background: <<colour nh-yellow>>
+diff-invisible-foreground: <<colour nh-void>>
+dirty-indicator: <<colour nh-red>>
+download-background: <<colour nh-magenta>>
+download-foreground: <<colour nh-void>>
+dragger-background: <<colour background>>
+dragger-foreground: <<colour foreground>>
+dropdown-background: <<colour nh-bg-2>>
+dropdown-border: <<colour nh-cyan>>
+dropdown-tab-background-selected: <<colour nh-cyan-deep>>
+dropdown-tab-background: <<colour nh-panel>>
+dropzone-background: <<colour nh-green>>
+external-link-background-hover: inherit
+external-link-background-visited: inherit
+external-link-background: inherit
+external-link-foreground-hover: <<colour nh-magenta>>
+external-link-foreground-visited: <<colour nh-purple>>
+external-link-foreground: <<colour nh-blue>>
+footnote-target-background: <<colour nh-panel>>
+foreground: <<colour nh-text>>
+highlight-background: <<colour nh-yellow-deep>>
+highlight-foreground: <<colour nh-yellow>>
+menubar-background: <<colour nh-void>>
+menubar-foreground: <<colour nh-green>>
+message-background: <<colour nh-panel>>
+message-border: <<colour nh-cyan>>
+message-foreground: <<colour foreground>>
+modal-backdrop: <<colour nh-void>>
+modal-background: <<colour nh-bg-2>>
+modal-border: <<colour nh-magenta>>
+modal-footer-background: <<colour nh-panel>>
+modal-footer-border: <<colour nh-purple>>
+modal-header-border: <<colour nh-purple>>
+muted-foreground: <<colour nh-dim>>
+network-activity-foreground: <<colour nh-green>>
+notification-background: <<colour nh-void>>
+notification-border: <<colour nh-green>>
+page-background: <<colour nh-void>>
+pre-background: <<colour nh-void>>
+pre-border: <<colour nh-line>>
+primary: <<colour nh-cyan>>
+selection-background: <<colour nh-magenta>>
+selection-foreground: <<colour nh-void>>
+select-tag-background: <<colour nh-panel>>
+select-tag-foreground: <<colour nh-green>>
+sidebar-button-foreground: <<colour nh-cyan>>
+sidebar-controls-foreground-hover: <<colour nh-green>>
+sidebar-controls-foreground: <<colour nh-dim>>
+sidebar-foreground-shadow: transparent
+sidebar-foreground: <<colour nh-text>>
+sidebar-muted-foreground-hover: <<colour nh-green>>
+sidebar-muted-foreground: <<colour nh-dim>>
+sidebar-tab-background-selected: <<colour tab-background-selected>>
+sidebar-tab-background: <<colour tab-background>>
+sidebar-tab-border-selected: <<colour tab-border-selected>>
+sidebar-tab-border: <<colour tab-border>>
+sidebar-tab-divider: <<colour tab-divider>>
+sidebar-tab-foreground-selected: <<colour tab-foreground-selected>>
+sidebar-tab-foreground: <<colour tab-foreground>>
+sidebar-tiddler-link-foreground-hover: <<colour nh-magenta>>
+sidebar-tiddler-link-foreground: <<colour nh-cyan>>
+site-title-foreground: <<colour nh-green>>
+stability-stable: <<colour nh-green>>
+stability-experimental: <<colour nh-yellow>>
+stability-deprecated: <<colour nh-red>>
+stability-legacy: <<colour nh-blue>>
+static-alert-foreground: #aaaaaa
+tab-background-selected: <<colour nh-green-deep>>
+tab-background: <<colour nh-purple-deep>>
+tab-border-selected: <<colour nh-green>>
+tab-border: <<colour nh-magenta>>
+tab-divider: <<colour nh-purple>>
+tab-foreground-selected: <<colour nh-green>>
+tab-foreground: <<colour nh-cyan>>
+table-border: <<colour nh-line>>
+table-footer-background: <<colour nh-cyan-deep>>
+table-header-background: <<colour nh-cyan-deep>>
+tag-background: <<colour nh-magenta>>
+tag-foreground: <<colour nh-void>>
+testcase-accent-level-1: <<colour nh-cyan>>
+testcase-accent-level-2: <<colour nh-yellow>>
+testcase-accent-level-3: <<colour nh-green>>
+tiddler-background: <<colour nh-bg>>
+tiddler-border: <<colour nh-line>>
+tiddler-controls-foreground-hover: <<colour nh-green>>
+tiddler-controls-foreground-selected: <<colour nh-magenta>>
+tiddler-controls-foreground: <<colour nh-dim>>
+tiddler-editor-background: <<colour nh-void>>
+tiddler-editor-border-image: #00f0ff
+tiddler-editor-border: <<colour nh-cyan>>
+tiddler-editor-fields-even: <<colour nh-panel>>
+tiddler-editor-fields-odd: <<colour nh-bg-2>>
+tiddler-info-background: <<colour nh-bg-2>>
+tiddler-info-border: <<colour nh-purple>>
+tiddler-info-tab-background: <<colour nh-purple-deep>>
+tiddler-link-background: <<colour background>>
+tiddler-link-foreground: <<colour nh-cyan>>
+tiddler-subtitle-foreground: <<colour nh-dim>>
+tiddler-title-foreground: <<colour nh-magenta>>
+toolbar-new-button: <<colour nh-green>>
+toolbar-options-button: <<colour nh-cyan>>
+toolbar-save-button: <<colour nh-green>>
+toolbar-info-button: <<colour nh-blue>>
+toolbar-edit-button: <<colour nh-yellow>>
+toolbar-close-button: <<colour nh-orange>>
+toolbar-delete-button: <<colour nh-red>>
+toolbar-cancel-button: <<colour nh-orange>>
+toolbar-done-button: <<colour nh-green>>
+untagged-background: <<colour nh-faint>>
+very-muted-foreground: <<colour nh-faint>>
+wikilist-background: <<colour nh-bg-2>>
+wikilist-item: <<colour nh-text>>
+wikilist-info: <<colour nh-text>>
+wikilist-title: <<colour nh-cyan>>
+wikilist-title-svg: <<colour wikilist-title>>
+wikilist-url: <<colour nh-dim>>
+wikilist-button-open: <<colour nh-green>>
+wikilist-button-open-hover: <<colour nh-yellow>>
+wikilist-button-reveal: <<colour nh-cyan>>
+wikilist-button-reveal-hover: <<colour nh-magenta>>
+wikilist-button-remove: <<colour nh-red>>
+wikilist-button-remove-hover: <<colour nh-orange>>
+wikilist-toolbar-background: <<colour nh-panel>>
+wikilist-toolbar-foreground: <<colour nh-dim>>
+wikilist-droplink-dragover: <<colour nh-purple>>
+wikilist-button-background: <<colour nh-faint>>
+wikilist-button-foreground: <<colour nh-text>>
