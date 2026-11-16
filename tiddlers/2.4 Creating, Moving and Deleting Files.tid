@@ -1,0 +1,31 @@
+created: 20170830191249314
+modified: 20261111185419671
+tags: [[Topic 2: Finding Your Way on a Linux System]]
+title: 2.4 Creating, Moving and Deleting Files
+type: text/vnd.tiddlywiki
+
+[[Open This|2.4 Creating, Moving and Deleting Files]]
+
+---
+
+!! 2.4 Creating, Moving and Deleting Files
+
+''Weight:'' 2
+
+''Description:'' Create, move and delete files and directories under the home directory.
+
+''Key Knowledge Areas:''
+
+* [[Files and directories|Files, directories]]
+* Case sensitivity
+** Linux is CASE SENSITIVE on filenames, logins etc etc.
+* Simple [[globbing|Globbing]] and [[quoting|Quoting]]
+
+''Terms and Utilities:''
+
+* [[mv|mv command]]
+* [[cp|cp command]]
+* [[rm]] 
+* [[touch]]
+* [[mkdir]] 
+* [[rmdir]]

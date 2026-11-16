@@ -1,0 +1,38 @@
+created: 20261112164654938
+modified: 20261115194904070
+tags: [[Git Command Center]]
+title: Git Troubleshooting
+type: text/vnd.tiddlywiki
+
+[[Open This|Git Troubleshooting]]
+
+---
+
+''Check the basics''
+
+* `git status` shows your branch, staged/unstaged changes, and any in-progress merge or rebase.
+* `git log --oneline --graph --all -20` shows where you and your branches actually are.
+* `git diff` and `git diff --staged` show what changed.
+
+''Read the error message.'' Git’s errors usually name the problem and often suggest the fix (e.g., “failed to push some refs” means your remote has commits you don’t).
+
+''Undo common mistakes''
+
+* Bad commit, not pushed: `git reset --soft HEAD~1` (keeps changes) or `git commit --amend`
+* Discard local edits to a file: `git restore <file>`
+* Unstage: `git restore --staged <file>`
+* Safe undo of a pushed commit: `git revert <sha>`
+
+''Use the safety net: git reflog.'' It records every place HEAD has been, so “lost” commits after a bad reset, rebase, or deleted branch are usually recoverable with `git reset --hard <sha>` or `git checkout -b rescue <sha>`.
+
+''Get out of stuck states''
+
+* Merge conflict: edit the marked files, git add them, then git commit (or git merge --abort to bail).
+* Rebase mess: git rebase --abort
+* Detached HEAD: git switch -c new-branch to keep your work.
+
+''Diagnose config/connection problems''
+
+git config --list --show-origin shows where settings come from.
+GIT_TRACE=1 git <command> or GIT_CURL_VERBOSE=1 git push shows what’s happening under the hood.
+Auth issues: check git remote -v, your credential helper, and SSH keys (ssh -T git@github.com).

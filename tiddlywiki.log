@@ -533,3 +533,138 @@ syncer-server-filesystem: Dispatching 'delete' task: Draft of 'New Tiddler'
 syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
 syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
 syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: GitOps
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: DevOps
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'GitOps'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'GitOps'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'GitOps'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: GitOps
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'GitOps'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'systemd'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'systemd'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'systemd'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: systemd
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'systemd'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Linux
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Linux'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Linux'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Linux
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'Linux'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: Linux System Administration
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Linux System Administration'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Linux System Administration'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Linux System Administration'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Linux System Administration
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'Linux System Administration'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: Linux Essentials
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: Topic 1:The Linux Community and a Career in open source
+syncer-server-filesystem: Dispatching 'save' task: Topic 2: Finding Your Way on a Linux System
+syncer-server-filesystem: Dispatching 'save' task: Topic 3: The Power of the Command Line
+syncer-server-filesystem: Dispatching 'save' task: Topic 4: The Linux Operating System
+syncer-server-filesystem: Dispatching 'save' task: Topic 5: Security and File Permissions
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: 2.1 Command Line Basics
+syncer-server-filesystem: Dispatching 'save' task: 2.2 Using the Command Line to Get Help
+syncer-server-filesystem: Dispatching 'save' task: 2.3 Using Directories and Listing Files
+syncer-server-filesystem: Dispatching 'save' task: 2.4 Creating, Moving and Deleting Files
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: 5.3 Managing File Permissions and Ownership
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: Docker
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Docker'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Docker'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Docker'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Docker
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'Docker'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: Git Command Center
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Git Command Center'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Git Command Center'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Git Command Center'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Git Command Center
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'Git Command Center'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Resume
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'New Tiddler'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/Import
+syncer-server-filesystem: Dispatching 'save' task: Git Troubleshooting
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Git Troubleshooting'
+syncer-server-filesystem: Dispatching 'save' task: Draft of 'Git Troubleshooting'
+syncer-server-filesystem: Dispatching 'save' task: $:/StoryList
+syncer-server-filesystem: Dispatching 'save' task: Git Troubleshooting
+syncer-server-filesystem: Dispatching 'delete' task: Draft of 'Git Troubleshooting'

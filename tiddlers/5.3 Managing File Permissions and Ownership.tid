@@ -1,0 +1,53 @@
+created: 20170831171412468
+modified: 20261111183640473
+tags: [[Topic 5: Security and File Permissions]]
+title: 5.3 Managing File Permissions and Ownership
+type: text/vnd.tiddlywiki
+
+[[Open This|5.3 Managing File Permissions and Ownership]]
+
+---
+
+<$transclude tiddler="Createdbox" mode="block"/>
+
+!! 5.3 Managing File Permissions and Ownership
+
+''Weight:'' 2
+
+''Description:'' Understanding and manipulating file permissions and ownership settings.
+
+''Key Knowledge Areas:''
+
+* File/directory permissions and owners
+
+''Terms and Utilities:''
+
+* [[ls -l]]
+* [[ls -a]]
+* [[chmod]]
+* [[chown]]
+
+---
+
+|`d`|`rwx`|`rwx`|`rwx`|`root`|`root`|
+|File type, not part of permissions|Owner|Group|Others|Owner Name|Group Name|
+
+---
+
+Permission Values
+
+|`r=4`|
+|`w=2`|
+|`x=1`|
+
+|`rwx = 4+2+1 = 7`| (full permissions)|
+
+|`rw- = 4+2+0 = 6`|Read & Write|
+
+|`r-x = 4+0+1 = 5`|Read & Execute|
+
+|`r-- = 4+0+0 = 4`|Read Only|
+
+|`--x = 0+0+1 = 1`|Execute Only|
+
+See: https://wiki.archlinux.org/index.php/File_permissions_and_attributes

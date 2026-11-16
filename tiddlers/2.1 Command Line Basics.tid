@@ -1,0 +1,38 @@
+created: 20170830190451111
+modified: 20261111185513280
+tags: [[Topic 2: Finding Your Way on a Linux System]]
+title: 2.1 Command Line Basics
+type: text/vnd.tiddlywiki
+
+[[Open This|2.1 Command Line Basics]]
+
+---
+
+!! 2.1 Command Line Basics
+
+''Weight:'' 3
+
+''Description:'' Basics of using the Linux command line.
+
+''Key Knowledge Areas:''
+
+* [[Basic shell|shell]]
+* [[Command line syntax]]
+* [[Variables]]
+* [[Globbing]]
+* [[Quoting]]
+
+''Terms and Utilities:''
+
+* [[Bash]]
+* [[echo]]
+* [[history]]
+* [[PATH environmental variable]]
+* [[export]]
+* [[type]]
+
+---
+
+See:
+
+[[103.1 Work on the command line]]

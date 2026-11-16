@@ -1,0 +1,27 @@
+created: 20170830190752241
+modified: 20261111185454513
+tags: [[Topic 2: Finding Your Way on a Linux System]]
+title: 2.2 Using the Command Line to Get Help
+type: text/vnd.tiddlywiki
+
+[[Open This|2.2 Using the Command Line to Get Help]]
+
+---
+
+!! 2.2 Using the Command Line to Get Help
+
+''Weight:'' 2
+
+''Description:'' Running help commands and navigation of the various help systems.
+
+''Key Knowledge Areas:''
+
+* [[Man pages]]
+* [[info]]
+
+''Terms and Utilities:''
+
+* [[info]]
+* [[Man pages]]
+* [[/usr/share/doc/]]
+* [[locate]]

@@ -1,0 +1,37 @@
+created: 20170830191013175
+modified: 20261111185436746
+tags: [[Topic 2: Finding Your Way on a Linux System]]
+title: 2.3 Using Directories and Listing Files
+type: text/vnd.tiddlywiki
+
+[[Open This|2.3 Using Directories and Listing Files]]
+
+---
+
+!! 2.3 Using Directories and Listing Files
+
+''Weight:'' 2
+
+''Description:'' Navigation of home and system directories and listing files in various locations.
+
+''Key Knowledge Areas:''
+
+* [[Files, directories]]
+* Hidden files and directories
+** `ls -a`
+* Home
+** Home folder has users folders in it...
+* [[Absolute and relative paths]]
+
+''Terms and Utilities:''
+
+* Common options for ls
+** [[ls command]]
+* Recursive listings
+** `ls -R`
+* cd
+** Changes directory
+* [[. and ..]]
+* home and ~
+** ~ stands for the current users home directory
+*** `~/letters` == `/home/joe/letters` 
